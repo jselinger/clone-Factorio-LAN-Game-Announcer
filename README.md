@@ -36,3 +36,8 @@ Each of these scripts has a section at the top to configure the destination IP a
  - The factorioannouncer.pl and factoriorelay.pl scripts are configured by setting the @dest_list variable.
 
 In a typical home network, the broadcast IP address would end in 255.  For example, if a machine in the target network is 192.168.1.14, then the broadcast address is most likely 192.168.1.255.  For further information about this, please see your network administrator.
+
+## Forum Discussion
+These scripts spawned out of the discussion on the Factorio forum about game discovery across VLAN broundaries.
+
+https://forums.factorio.com/viewtopic.php?f=49&t=57890
