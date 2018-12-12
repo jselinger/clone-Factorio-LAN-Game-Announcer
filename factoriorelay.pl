@@ -25,8 +25,8 @@ use List::Util "sum";
 #
 
 
-# Setup - Every subnet to announce to.  If an announcement is received from one
-# of these subnets it is skipped in teh sending phase.
+# Config - Every subnet to announce to.  If an announcement is received from one
+# of these subnets we will end up duplicating the announcement.
 my @dest_list = ('192.168.220.63', '192.168.220.127', '192.168.220.191', '192.168.223.255');
 
 # Define UDP Packet Header Fields
